@@ -1,0 +1,99 @@
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tooltip {
+  position: absolute;
+  top: 100%;
+  left: 64%;
+  transform: translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+  font-weight: 600;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  transition: opacity 0.3s, visibility 0.3s, top 0.3s, background 0.3s;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all .3s ease;
+}
+
+/* ======= About */
+.about {
+  background-color: #454b58;
+}
+
+.about_logo {
+  width: 160px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+  border: 3px solid #2ed573;
+}
+
+.about_figures {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about_figures h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2ed573;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+}
+
+.about_figures p {
+  font-size: 17px;
+  font-weight: 500;
+  color: #e7e8eb;
+  user-select: none;
+  margin-bottom: 21px;
+}
+
+.abou_list {
+  gap: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about_inner {
+  gap: 100px;
+  display: flex;
+  padding: 64px 0;
+}
+
+.about_info {
+  max-width: 680px;
+}
+
+.about_info h1 {
+  font-size: 32px;
+  font-weight: 700;
+  user-select: none;
+  margin-bottom: 24px;
+}
+
+.about_info h3 {
+  font-size: 20px;
+  font-weight: 600;
+  user-select: none;
+  margin-bottom: 24px;
+}
+
+.about_info p {
+  font-size: 15px;
+  line-height: 22px;
+  user-select: none;
+  letter-spacing: 0.5px;
+}
+
+.about_info span {
+  font-weight: 600;
+}

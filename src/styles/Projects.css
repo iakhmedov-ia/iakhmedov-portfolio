@@ -1,0 +1,143 @@
+.projects {
+  background-color: #454b58;
+}
+
+.projects_inner {
+  gap: 30px;
+  display: flex;
+  padding: 60px 0;
+  align-items: center;
+}
+
+.projects_info {
+  min-width: 470px;
+}
+
+.projects_info h1 {
+  font-size: 32px;
+  font-weight: 700;
+  user-select: none;
+  margin-bottom: 24px;
+}
+
+.projects_info p {
+  font-size: 15px;
+  user-select: none;
+  line-height: 22px;
+}
+
+.slider {
+  max-width: 280px;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #2f3542;
+  border: 1px solid #5c616e;
+}
+
+.slider h3 {
+  font-size: 18px;
+  font-weight: 500;
+  user-select: none;
+  margin-bottom: 16px;
+}
+
+.slider p {
+  color: #e7e8eb;
+  user-select: none;
+  margin-bottom: 20px;
+  min-height: 35px;
+}
+
+.slider_list {
+  gap: 10px;
+  display: flex;
+  margin-bottom: 8px;
+  align-items: center;
+}
+
+.slider_list p {
+  padding: 4px 5px;
+  min-height: auto ;
+  color: #82e6ab;
+  user-select: none;
+  border-radius: 5px;
+  border: 1px solid #82e6ab;
+}
+
+.slider_btn {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  transition: all .3s ease;
+}
+
+.slider_btn:hover {
+  transform: scale(1.01);
+}
+
+
+.slider_btn a {
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 0;
+  font-weight: 500;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  border: 1px solid #25aa5c;
+  background-color: #25aa5c;
+}
+
+.slider_btn:hover button {
+  transform: scale(1.02);
+}
+
+.swiper-pagination {
+  display: flex;
+}
+
+span.swiper-pagination-bullet {
+  height: 8px;
+  width: 24px;
+  display: block;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+span.swiper-pagination-bullet-active {
+  background-color: #2ed573;
+}
+
+
+
+/* .sliders {
+  gap: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+} */
+
+/* .slider_dots {
+  gap: 8px;
+  display: flex;
+  margin-top: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.dots {
+  height: 8px;
+  width: 24px;
+  display: block;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #2ed573;
+}
+
+.dots_2,
+.dots_3 {
+  background-color: #2f3542;
+} */

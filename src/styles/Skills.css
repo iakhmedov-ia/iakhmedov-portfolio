@@ -1,0 +1,136 @@
+.ball {
+  position: relative;
+  bottom: 30px;
+  left: calc(100% - 20px);
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border-radius: 50%;
+  animation: ball-move8234 3s ease-in-out 1s infinite alternate;
+}
+
+.bar {
+  width: 150px;
+  height: 10px;
+  background: #FFDAAF;
+  border-radius: 30px;
+  margin-bottom: 40px;
+  transform: rotate(-15deg);
+  animation: up-down6123 3s ease-in-out 1s infinite alternate;
+}
+
+@keyframes up-down6123 {
+  from {
+    transform: rotate(-15deg);
+  }
+
+  to {
+    transform: rotate(15deg);
+  }
+}
+
+@keyframes ball-move8234 {
+  from {
+    left: calc(100% - 30px);
+    transform: rotate(360deg);
+  }
+
+  to {
+    left: calc(0% - 5px);
+    transform: rotate(0deg);
+  }
+}
+/*  skills */
+.skills {
+  background-image: url("/public/images/header/bg_header.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.skills_inner {
+  display: flex;
+  padding-top: 40px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skills_inner h1 {
+  margin-bottom: 15px;
+  font-size: 32px;
+  font-weight: 700;
+  user-select: none;
+  letter-spacing: 1px;
+}
+
+.skills_inner p {
+  font-size: 16px;
+  user-select: none;
+  margin-bottom: 55px;
+}
+
+.skills_list {
+  display: flex;
+  column-gap: 24px;
+  align-items: center;
+  margin-bottom: 44px;
+}
+
+.html,
+.css,
+.js,
+.react,
+.github,
+.docker {
+  padding: 20px;
+  display: flex;
+  cursor: pointer;
+  border-radius: 8px;
+  align-items: center;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  background-color: #5c616e;
+  border: 1px solid #898e98;
+  box-shadow: 0px 0px 12px 0px #5c616e;
+}
+
+.html,
+.css {
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+.docker,
+.github {
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+}
+
+.js,
+.react {
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+
+
+.html img,
+.css img,
+.js img,
+.react img,
+.github img,
+.docker img {
+  width: 80px;
+  margin-bottom: 8px;
+}
+
+.html p,
+.css p,
+.js p,
+.react p,
+.github p,
+.docker p {
+  margin: 0;
+  font-weight: 500;
+}

@@ -1,0 +1,7 @@
+.scroll_progress {
+  top: 0;
+  height: 3px;
+  z-index: 100;
+  position: fixed;
+  background-color: #2ed573;
+}
